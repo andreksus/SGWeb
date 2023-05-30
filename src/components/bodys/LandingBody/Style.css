@@ -1,0 +1,76 @@
+.rec1 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 70px;
+    top: 61.6%;
+
+    background: #21DEEA;
+    border-radius: 6px;
+}
+
+.rec2 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 360px;
+    top: 30%;
+
+    background: #0EE5B5;
+    border-radius: 5px;
+}
+
+.rec3 {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 35%;
+    top:90%;
+
+    background: #0EE5B5;
+    border-radius: 5px;
+}
+
+.rec4 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 60.5%;
+    top: 75%;
+
+    background: #21DEEA;
+    border-radius: 3px;
+}
+
+.rec5 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 70%;
+    top: 29%;
+
+    background: #0EE5B5;
+    border-radius: 3px;
+}
+
+.rec6 {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    left: 82%;
+    top: 20%;
+
+    background: #21DEEA;
+    border-radius: 9px;
+}
+
+.rec7 {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    left: 91%;
+    top: 598px;
+
+    background: #0EE5B5;
+    border-radius: 6px;
+}

@@ -1,8 +1,12 @@
 import {FC} from "react";
-import {HeaderLanding} from "../../components/headers/HeaderLanding";
+import {LandingHeader} from "../../components/headers/LandingHeader/LandingHeader";
+import {LandingBody} from "../../components/bodys/LandingBody/LandingBody";
 
 export const LandingPage: FC = () => {
     return(
-        <HeaderLanding/>
+        <div>
+            <LandingHeader/>
+            <LandingBody/>
+        </div>
     );
 }

@@ -1,39 +1,5 @@
-* { margin: 0 }
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    padding: 30px 30px 24px 30px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
-}
-
-.btn {
-    font-family: 'Lexend Deca', sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 40px;
-    line-height: 50px;
-
-    border: none;
-    background-color: white;
-}
-
-.btn:hover {
-    border-radius: 10px;
-    transition-duration: 0.7s;
-}
-
-.text {
-    display: flex;
-    margin: 15% 20% 0 20%;
-
-
-    font-family: 'Lexend Deca', sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 70px;
-    line-height: 112px;
-    text-align: center;
+* {
+    margin: 0;
 }
 
 .rec1 {
@@ -111,4 +77,24 @@
 
     background: #0EE5B5;
     border-radius: 6px;
+}
+
+.icon {
+    height: 80px;
+}
+
+.icon:hover {
+    transition-duration: 0.7s;
+    transform: scale(1.1);
+}
+
+.icon:active {
+    transition-duration: 0.7s;
+    transform: scale(0.95);
+}
+
+.classGrid {
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px;
+    margin: 15% 0 0 39%;
 }

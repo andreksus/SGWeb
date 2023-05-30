@@ -1,13 +1,9 @@
 import {FC} from "react";
 import './Style.css'
 
-export const HeaderLanding: FC = () => {
+export const LandingBody: FC = () => {
     return (
         <div>
-            <div className={"header"}>
-                <img src="public/icons/LogoHeader.svg" alt=""/>
-                <button className={"btn"}>Log in</button>
-            </div>
             <div className={"text"}>This is a new way to use websites more conveniently</div>
             <div className="rec1"></div>
             <div className="rec2"></div>
@@ -17,5 +13,5 @@ export const HeaderLanding: FC = () => {
             <div className="rec6"></div>
             <div className="rec7"></div>
         </div>
-    );
+    )
 }
