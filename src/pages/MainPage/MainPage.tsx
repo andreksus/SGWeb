@@ -3,11 +3,12 @@ import {MainHeader} from "../../components/headers/MainHeader/MainHeader";
 import './Style.css'
 
 export const MainPage: FC = () => {
+
     return (
         <div>
             <MainHeader/>
             <div className="classGrid">
-                <img src="public/icons/IconsWebsites/IconVK.svg" className={"icon"} alt=""/>
+                <img onClick={() => console.log(123)} src="public/icons/IconsWebsites/IconVK.svg" className={"icon"} alt=""/>
                 <img src="public/icons/IconsWebsites/IconTelegram.svg" className={"icon"} alt=""/>
                 <img src="public/icons/IconsWebsites/IconGoogle.svg" className={"icon"} alt=""/>
                 <img src="public/icons/IconsWebsites/IconYoutube.svg" className={"icon"} alt=""/>
