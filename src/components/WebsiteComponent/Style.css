@@ -1,0 +1,13 @@
+.icon {
+    height: 80px;
+}
+
+.icon:hover {
+    transition-duration: 0.7s;
+    transform: scale(1.1);
+}
+
+.icon:active {
+    transition-duration: 0.7s;
+    transform: scale(0.95);
+}
